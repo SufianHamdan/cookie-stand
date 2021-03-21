@@ -1,0 +1,9 @@
+body
+{
+  margin: 25px;
+  line-height: 20px;
+}
+
+li{
+  list-style-type: circle;
+}
