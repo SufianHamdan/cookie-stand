@@ -1,9 +1,28 @@
 body
 {
-  margin: 25px;
+  font-family: 'TradeGothicLTStd',Arial,sans-serif;
+  font-size: 18px;
+  color: #464646;
+  line-height: 30px;
+  margin-bottom: 20px;
+  margin: 0 auto;
   line-height: 20px;
+  margin-top: 20px;
 }
 
 li{
   list-style-type: circle;
 }
+
+table{width: 100%;}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 5px;
+}
+th {
+  text-align: left;
+}
+
