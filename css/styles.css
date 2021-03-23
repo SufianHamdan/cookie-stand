@@ -1,16 +1,9 @@
 body
 {
   font-family: 'TradeGothicLTStd',Arial,sans-serif;
-  font-size: 18px;
-  color: #464646;
-  line-height: 30px;
-  margin-bottom: 20px;
-  margin: 0 auto;
-  line-height: 20px;
-  margin-top: 20px;
 }
 
-li{
+table li{
   list-style-type: circle;
 }
 
@@ -26,3 +19,109 @@ th {
   text-align: left;
 }
 
+#first-header
+{
+  width: 100%;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+header div img
+{
+  width: 30px;
+  float: left;
+  padding-left: 30px; 
+}
+#first-header ul li {
+  clear: both;
+  display: inline;
+  padding-right: 20px;
+}
+#first-header ul li:nth-of-type(2)
+{
+  padding-right: 180px;
+  padding-left: 350px;
+}
+
+nav{
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  text-align: center;
+}
+nav ul li{
+  display: inline;
+  padding-right: 25px;
+  margin-bottom: auto;
+}
+
+nav ul img
+{
+  margin-right: 200px;
+}
+
+nav ul input
+{
+  margin-left: 80px;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: #000;
+}
+main h1
+{
+  padding: 25px;
+  font-size: 30px;
+  text-align: center;
+}
+
+main img {
+  border: 1px solid #ddd; /* Gray border */
+  border-radius: 4px;  /* Rounded border */
+  padding: 5px; /* Some padding */
+  width: 150px; /* Set a small width */
+  margin-left: 200px;
+}
+
+
+main div {
+  margin-top: 20px;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
+
+main div h3{
+  padding-left: 300px;
+  font-weight: bold;
+}
+
+footer
+{
+  width: 100%;
+  color: #ddd;
+  background-color: black;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+.icons i
+{
+  padding-top: 20px;
+  padding-right: 10px;
+}
+#sec-col 
+{
+  width: 20%;
+  position: relative;
+  left: 250px;
+  bottom: 80px;
+  text-align: center;
+}
+#sec-col ul li a
+{
+  text-decoration: none;
+  color: rgb(148, 147, 147);
+  font-size: 15px;
+}

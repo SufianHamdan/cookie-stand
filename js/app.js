@@ -139,5 +139,3 @@ tableRt.appendChild(tableHt2);
 tableHt2.textContent = seattle.totalCookiesPerDay + tokyo.totalCookiesPerDay + dubai.totalCookiesPerDay + paris.totalCookiesPerDay + lima.totalCookiesPerDay;
 
 
-
-
