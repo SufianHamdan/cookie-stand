@@ -32,14 +32,16 @@ header div img
   padding-left: 30px; 
 }
 #first-header ul li {
+  font-size: 12px;
   clear: both;
   display: inline;
   padding-right: 20px;
+  color: rgb(77, 76, 76);
 }
 #first-header ul li:nth-of-type(2)
 {
-  padding-right: 180px;
-  padding-left: 350px;
+  padding-right: 240px;
+  padding-left: 440px;
 }
 
 nav{
@@ -78,12 +80,17 @@ main img {
   border: 1px solid #ddd; /* Gray border */
   border-radius: 4px;  /* Rounded border */
   padding: 5px; /* Some padding */
-  width: 150px; /* Set a small width */
-  margin-left: 200px;
+  width: 100px; /* Set a small width */
+}
+.middle-imgs
+{
+  width: 40%;
+  float: right;
+  margin-right: 400px;
 }
 
-
-main div {
+#before-footer {
+  clear: both;
   margin-top: 20px;
   border-top: 1px solid gray;
   border-bottom: 1px solid gray;
@@ -103,7 +110,8 @@ footer
   color: #ddd;
   background-color: black;
   padding-left: 20px;
-  padding-top: 10px;
+  padding-top: 20px;
+  max-height: 250px;
 }
 
 .icons i
@@ -116,7 +124,7 @@ footer
   width: 20%;
   position: relative;
   left: 250px;
-  bottom: 80px;
+  bottom: 85px;
   text-align: center;
 }
 #sec-col ul li a
@@ -125,3 +133,69 @@ footer
   color: rgb(148, 147, 147);
   font-size: 15px;
 }
+
+#third-col
+{
+  width: 20%;
+  position: relative;
+  left: 453px;
+  bottom: 180px;
+  text-align: center;
+}
+#third-col ul li a
+{
+  text-decoration: none;
+  color: rgb(148, 147, 147);
+  font-size: 15px;
+}
+
+#fourth-col
+{
+  width: 20%;
+  position: relative;
+  left: 650px;
+  bottom: 212px;
+  text-align: center;
+}
+
+#fourth-col ul li a{
+  text-decoration: none;
+  color: rgb(148, 147, 147);
+  font-size: 15px;
+}
+
+#fifth-col
+{
+  width: 20%;
+  position: relative;
+  left: 850px;
+  bottom: 260px;
+  text-align: center;
+}
+#fifth-col ul li a{
+  text-decoration: none;
+  color: rgb(148, 147, 147);
+  font-size: 15px;
+}
+
+/* For the from in sales page */
+form{
+  padding: 50px;
+}
+fieldset {
+  padding: 1em;
+  font:80%/1 sans-serif;
+  border: 3px solid gray; 
+  } 
+label button{
+  float:left;
+  width:25%;
+  margin-right:0.5em;
+  padding-top:0.2em;
+  text-align:right;
+  font-weight:bold;
+  }
+
+  section{
+    padding: 30px;
+  }
