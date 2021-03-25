@@ -70,6 +70,7 @@ function draw(){
   drawTableHeader();
   drawTableDate();
   drawTableFooter();
+  document.forms['form'].reset();
 }
 
 function drawTableHeader() {
